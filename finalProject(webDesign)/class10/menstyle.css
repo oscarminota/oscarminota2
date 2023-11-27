@@ -1,0 +1,187 @@
+html{
+    height: 100%;
+    box-sizing: border-box;
+}
+body {                   
+    background-color: black;
+    margin: 0;
+    min-height: 100%;     
+    position: relative;           
+    box-sizing: inherit; 
+}
+
+main{
+    margin:0 auto;
+}
+
+.logo{
+    width: 180px;
+    height: auto;
+    cursor: pointer;
+    position: absolute;
+}
+
+.directory ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.directory ul li a{
+    text-decoration: none;
+    color: #FFC710;
+    text-transform: uppercase;
+}
+
+.directory ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background:#FFC710;
+    position: absolute;
+    left: 0;
+    bottom:-5px;
+    transition: 0.3s;
+}
+
+.directory ul li:hover::after{
+    width: 100%;
+}
+
+li{
+    float: right;
+}
+
+footer{
+    color: white;
+    font-size: .85em;
+    padding: 20px;
+    text-align: center;
+    background-color: #FFC710;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.maintext{
+    color: #FFC710;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 0%;
+    padding-top: 3%
+}
+
+.container{
+    width: 100%;
+    height: 68vh;
+}
+
+.banner{
+    width: 100%;
+    height: 62vh;
+    background-image: url(yellowAirMax4.png);
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.bannertext{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    float: left;
+    padding-left: 5%;
+    padding-top: 10%;
+    line-height: 2px;
+}
+
+.salestext h3{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.sneaker1 img{
+    max-width: 500px;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 25px;
+   
+}
+
+.sneaker1 p{
+    text-align: center;
+}
+
+.sneaker1text{
+    color: white;
+    padding-bottom: 150px;
+    line-height: 3vh;
+    font-size: 20px;
+}
+
+.autumntext{
+    color: #FFC710;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+p.shop{
+    cursor: pointer;
+    font-size: 17px;
+}
+
+p.shop a{
+    color: white;
+    text-decoration:underline;
+}
+
+.sneaker2 img{
+    max-width: 500px;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 25px;
+   
+}
+
+.sneaker2 p{
+    text-align: center;
+}
+
+.sneaker2text{
+    color: white;
+    padding-bottom: 150px;
+    line-height: 3vh;
+    font-size: 20px;
+}
+
+.sneaker3 img{
+    max-width: 500px;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 25px;
+   
+}
+
+.sneaker3 p{
+    text-align: center;
+}
+
+.sneaker3text{
+    color: white;
+    padding-bottom: 150px;
+    line-height: 3vh;
+    font-size: 20px;
+}
+
+
